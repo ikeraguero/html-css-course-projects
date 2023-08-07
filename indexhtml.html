@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="styles/htmlstyle.css">
+    <link rel="stylesheet" href="styles/htmlstyle.css" />
     <title>The Fundamental Language of the Web: HTML</title>
   </head>
   <body>
@@ -20,8 +20,12 @@
       <header>
         <h2>The Basic Language of the Web: HTML</h2>
 
-        <p>
-          <img src="images/laura-jones.jpg" alt="laura-jones-picture" width="50" />
+        <p id="author">
+          <img
+            src="images/laura-jones.jpg"
+            alt="laura-jones-picture"
+            width="50"
+          />
         </p>
 
         Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027
@@ -31,7 +35,8 @@
         </p>
       </header>
       <p>
-        All modern websites and web applications are built using three <em>fundamental</em>
+        All modern websites and web applications are built using three
+        <em>fundamental</em>
         technologies: HTML, CSS and JavaScript. These are the languages of the
         web.
       </p>
@@ -43,9 +48,10 @@
       <h3>What is HTML?</h3>
 
       <p>
-        HTML stands for <strong>H</strong>yper<strong>T</strong>ext <strong>M</strong>arkup <strong>L</strong>anguage. It's a markup language that web
-        developers use to structure and describe the content of a webpage (not a
-        programming language).
+        HTML stands for <strong>H</strong>yper<strong>T</strong>ext
+        <strong>M</strong>arkup <strong>L</strong>anguage. It's a markup
+        language that web developers use to structure and describe the content
+        of a webpage (not a programming language).
       </p>
       <p>
         HTML consists of elements that describe different types of content:
@@ -61,7 +67,9 @@
       </ol>
 
       You can learn more on
-      <a href="https://developer.mozilla.org/en-US/" target="_blank">MDN Web Docs</a>
+      <a href="https://developer.mozilla.org/en-US/" target="_blank"
+        >MDN Web Docs</a
+      >
 
       <h3>Why should you learn HTML?</h3>
 
@@ -84,47 +92,43 @@
       <p>Hopefully you learned something new here. See you next time!</p>
     </article>
 
-      <h4>Related Posts</h4>
-      <aside>
-      <ul>
+    <h4>Related Posts</h4>
+    <aside>
+      <ul class="related">
         <li>
-          <p>
-            <img src="images/related-1.jpg" width="75" />
-            <a
-              href="https://brainstation.io/career-guides/how-to-become-a-web-developer" target="_blank"
-              >How to Learn Web Development</a
-            >
-          </p>
-          By Jonas Schmedtmann
+          <img src="images/related-1.jpg" width="75" />
+          <a
+            href="https://brainstation.io/career-guides/how-to-become-a-web-developer"
+            target="_blank"
+            >How to Learn Web Development</a
+          >
+          <p class="related-author">By Jonas Schmedtmann</p>
         </li>
 
         <li>
-          <p>
-            <img src="images/related-2.jpg" width="75" />
-            <a
-              href="https://medium.com/codex/the-hidden-powers-of-css-5f73111633f8" target="_blank"
-            >
-              The Unknown Power of CSS
-            </a>
-          </p>
-          By Jim Dillon
+          <img src="images/related-2.jpg" width="75" />
+          <a
+            href="https://medium.com/codex/the-hidden-powers-of-css-5f73111633f8"
+            target="_blank"
+          >
+            The Unknown Power of CSS
+          </a>
+          <p class="related-author">By Jim Dillon</p>
         </li>
 
         <li>
-          <p>
           <img src="images/related-3.jpg" width="75" />
           <a
-            href="https://medium.com/@sannanmalikofficial/why-javascript-is-awesome-4f5ccd46f246" target="_blank"
+            href="https://medium.com/@sannanmalikofficial/why-javascript-is-awesome-4f5ccd46f246"
+            target="_blank"
             >Why JavaScript is Awesome</a
           >
         </li>
-      </p>
-        By Matilda
+        <p class="related-author">By Matilda</p>
       </ul>
     </aside>
     <footer>
-      Copyright &copy; 2027 The Code Magazine.
+      <p id="copyright">Copyright &copy; 2027 The Code Magazine.</p>
     </footer>
-  
   </body>
 </html>
