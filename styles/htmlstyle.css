@@ -10,9 +10,8 @@ li {
 
 h1,
 h2,
-h3,
-h4 {
-  color: rgb(0, 146, 190);
+h3 {
+  color: #1098ad;
 }
 
 h1 {
@@ -67,4 +66,29 @@ li {
 
 .related-author {
   font-weight: bold;
+}
+
+.main-header {
+  background-color: #f7f7f7;
+}
+
+aside {
+  background-color: #f7f7f7;
+  border-top: #1098ad solid 5px;
+  border-bottom: #1098ad solid 5px;
+}
+
+body {
+  border-top: #1098ad solid 10px;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+li:first-child {
+  font-weight: bold;
+}
+
+li:last-child {
+  font-style: italic;
 }
