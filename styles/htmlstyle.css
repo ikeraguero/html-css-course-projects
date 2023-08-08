@@ -92,3 +92,22 @@ li:first-child {
 li:last-child {
   font-style: italic;
 }
+
+/* Styling Hyperlinks (LVHA) */
+
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #1098ad;
+}
+
+a:hover {
+  color: orangered;
+}
+
+a:active {
+  background-color: black;
+}
