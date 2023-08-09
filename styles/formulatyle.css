@@ -3,6 +3,8 @@ body {
   margin-top: 0%;
   margin-left: 0%;
   margin-right: 0%;
+  color: #444;
+  font-size: 20px;
 }
 
 .main-header {
@@ -60,5 +62,14 @@ li:first-child {
 }
 
 li:last-child {
+  font-weight: bold;
+}
+
+.related-posts li {
+  list-style: none;
+  color: #d13030;
+}
+
+.author {
   font-weight: bold;
 }
