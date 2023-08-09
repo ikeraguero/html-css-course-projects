@@ -1,0 +1,25 @@
+body {
+  font-family: sans-serif;
+}
+
+p,
+li,
+footer {
+  color: #444;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: #d13030;
+}
+
+h1,
+h4 {
+  text-transform: uppercase;
+}
+
+.related-posts {
+  text-align: center;
+}
