@@ -1,10 +1,16 @@
 body {
-  border-top: #1098ad solid 10px;
   font-family: sans-serif;
   color: #444;
   margin-top: 0;
-  margin-left: 0;
-  margin-right: 0;
+}
+
+.main-header {
+  border-top: #1098ad solid 10px;
+}
+
+.posted-by {
+  font-style: italic;
+  font-size: 19px;
 }
 
 h1,
