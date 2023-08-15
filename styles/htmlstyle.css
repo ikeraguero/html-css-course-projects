@@ -11,18 +11,26 @@ body {
 
 .main-header {
   border-top: #1098ad solid 10px;
+  background-color: #f7f7f7;
   padding: 20px 40px;
+  margin-bottom: 60px;
 }
 
 aside {
   background-color: #f7f7f7;
   border-top: #1098ad solid 5px;
   border-bottom: #1098ad solid 5px;
+  margin-top: 50px;
+  padding: 50px 0;
 }
 
 .posted-by {
   font-style: italic;
   font-size: 19px;
+}
+
+.post-header {
+  margin-bottom: 30px;
 }
 
 h1,
@@ -39,10 +47,12 @@ h1 {
 
 h2 {
   font-size: 40px;
+  margin-bottom: 30px;
 }
 
 h3 {
   font-size: 30px;
+  margin-top: 40px;
 }
 
 h4 {
@@ -54,6 +64,7 @@ h4 {
 p {
   font-size: 22px;
   line-height: 1.5;
+  margin-bottom: 20px;
 }
 
 li {
@@ -86,10 +97,6 @@ li {
   font-weight: bold;
 }
 
-.main-header {
-  background-color: #f7f7f7;
-}
-
 li:first-child {
   font-weight: bold;
 }
@@ -116,4 +123,9 @@ a:hover {
 
 a:active {
   background-color: black;
+}
+
+ul,
+ol {
+  margin-left: 70px;
 }
