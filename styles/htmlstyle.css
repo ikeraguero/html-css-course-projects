@@ -17,6 +17,14 @@ body {
   height: 80px;
 }
 
+nav a:link {
+  margin-right: 30px;
+}
+
+nav a:link:last-child {
+  margin-right: 0px;
+}
+
 .post-img {
   width: 50%;
 }
