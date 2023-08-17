@@ -1,4 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
+  border-top: #d13030 10px solid;
   font-family: sans-serif;
   margin-top: 0%;
   margin-left: 0%;
@@ -8,11 +14,10 @@ body {
 }
 
 .main-header {
-  border-top: #d13030 solid 10px;
   background-color: #f7f7f7;
-  margin-top: 0%;
-  margin-left: auto;
-  margin-right: 0px;
+  margin-bottom: 60px;
+  padding: 20px 40px;
+  height: 80px;
 }
 
 li,
@@ -20,10 +25,19 @@ footer {
   color: #444;
 }
 
+h2 {
+  font-size: 35px;
+}
+
+h1 {
+  font-size: 30px;
+  font-style: italic;
+  margin-bottom: 0;
+}
+
 h1,
 h2,
-h3,
-h4 {
+h3 {
   color: #d13030;
 }
 
@@ -36,9 +50,8 @@ h4 {
   text-align: center;
 }
 
-.related-posts {
-  border-top: #d13030 solid 5px;
-  border-bottom: #d13030 solid 5px;
+h3 {
+  margin-bottom: 20px;
 }
 
 .posted-by {
@@ -81,4 +94,42 @@ li:last-child {
 
 footer {
   font-size: 15px;
+}
+
+p {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+ol,
+ul {
+  margin-left: 60px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+li:last-child {
+  margin-bottom: 20px;
+}
+
+aside {
+  background-color: #f7f7f7;
+  border-top: #d13030 solid 5px;
+  border-bottom: #d13030 solid 5px;
+  width: 800px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 800px;
+}
+
+nav a:link {
+  margin-right: 10px;
+}
+
+nav a:link:last-child {
+  margin-right: 0;
 }

@@ -89,7 +89,6 @@ p {
 
 li {
   font-size: 20px;
-  margin-bottom: 10px;
 }
 
 .related {
@@ -123,7 +122,7 @@ li:first-child {
 
 li:last-child {
   font-style: italic;
-  margin-bottom: 0;
+  margin-bottom: 20px;
 }
 
 /* Styling Hyperlinks (LVHA) */
