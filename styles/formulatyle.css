@@ -20,6 +20,11 @@ body {
   height: 80px;
 }
 
+.posted-by-photo {
+  width: 80%;
+  height: auto;
+}
+
 li,
 footer {
   color: #444;
