@@ -4,6 +4,7 @@
 }
 
 body {
+  position: relative;
   border-top: #1098ad solid 10px;
   font-family: sans-serif;
   color: #444;
@@ -33,6 +34,15 @@ nav a:link:last-child {
   width: 800px;
   margin: 0 auto;
   /* margin: 0 (margin-top/bottom) auto (margin-left/right) */
+}
+
+.like-button {
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+  padding: 20px;
+  font-size: 20px;
+  cursor: pointer;
 }
 
 aside {
