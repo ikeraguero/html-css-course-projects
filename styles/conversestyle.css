@@ -109,3 +109,42 @@ body {
   padding: 3px 9px;
   letter-spacing: 2px;
 }
+
+.colors {
+  margin-top: 30px;
+}
+
+.colors div {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.black {
+  background-color: black;
+  padding: 13px;
+}
+
+.blue {
+  background-color: rgb(55, 163, 199);
+  padding: 13px;
+}
+
+.red {
+  background-color: red;
+  padding: 13px;
+}
+
+.yellow {
+  background-color: yellow;
+  padding: 13px;
+}
+
+.green {
+  background-color: green;
+  padding: 13px;
+}
+
+.brown {
+  background-color: brown;
+  padding: 13px;
+}
