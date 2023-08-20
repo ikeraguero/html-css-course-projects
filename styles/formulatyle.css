@@ -11,6 +11,7 @@ body {
   margin-right: 0%;
   color: #444;
   font-size: 20px;
+  position: relative;
 }
 
 .main-header {
@@ -21,7 +22,7 @@ body {
 }
 
 .posted-by-photo {
-  width: 80%;
+  width: 100%;
   height: auto;
 }
 
@@ -32,6 +33,7 @@ footer {
 
 h2 {
   font-size: 35px;
+  position: relative;
 }
 
 h3 {
@@ -135,7 +137,7 @@ aside {
 }
 
 nav a:link {
-  margin-right: 10px;
+  margin-right: 15px;
 }
 
 nav a:link:last-child {
@@ -150,4 +152,29 @@ nav a:link:last-child {
 
 .related-posts {
   margin: 0 auto;
+}
+
+h1::first-letter {
+  font-style: normal;
+}
+
+.like-button {
+  position: absolute;
+  font-size: 20px;
+  padding: 20px;
+  bottom: 50px;
+  right: 40px;
+  cursor: pointer;
+}
+
+h2:after {
+  content: "TOP";
+  display: inline-block;
+  background-color: rgb(255, 230, 0);
+  color: black;
+  font-size: 15px;
+  padding: 3px 9px;
+  position: absolute;
+  top: 0;
+  right: -4px;
 }
