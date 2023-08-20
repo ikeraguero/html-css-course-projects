@@ -125,26 +125,26 @@ body {
 }
 
 .blue {
-  background-color: rgb(55, 163, 199);
+  background-color: rgba(23, 102, 167, 0.801);
   padding: 13px;
 }
 
 .red {
-  background-color: red;
+  background-color: rgb(211, 36, 36);
   padding: 13px;
 }
 
 .yellow {
-  background-color: yellow;
+  background-color: rgb(230, 230, 30);
   padding: 13px;
 }
 
 .green {
-  background-color: green;
+  background-color: rgb(69, 219, 69);
   padding: 13px;
 }
 
 .brown {
-  background-color: brown;
+  background-color: rgb(110, 18, 18);
   padding: 13px;
 }
