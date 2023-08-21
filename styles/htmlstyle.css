@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -31,7 +32,7 @@ nav a:link:last-child {
 }
 
 .container {
-  width: 800px;
+  width: 1200px;
   margin: 0 auto;
   /* margin: 0 (margin-top/bottom) auto (margin-left/right) */
 }
@@ -125,6 +126,7 @@ li {
 
 .related-author {
   font-weight: bold;
+  margin-bottom: 5px;
 }
 
 li:first-child {
@@ -132,7 +134,6 @@ li:first-child {
 }
 
 li:last-child {
-  font-style: italic;
   margin-bottom: 20px;
 }
 
@@ -155,7 +156,6 @@ a:active {
   background-color: black;
 }
 
-ul,
 ol {
   margin-left: 70px;
 }
@@ -174,4 +174,52 @@ h2:after {
 
 h1::first-letter {
   font-style: normal;
+}
+
+/* FLOATS */
+
+.author-img {
+  float: left;
+  margin-bottom: 20px;
+}
+
+.posted-by {
+  float: left;
+  margin-left: 10px;
+  padding-top: 9px;
+}
+
+h1 {
+  float: left;
+}
+
+nav {
+  float: right;
+  padding-top: 5px;
+}
+
+.clearing {
+  clear: both;
+}
+
+article {
+  width: 825px;
+  float: left;
+}
+
+aside {
+  width: 300px;
+  float: right;
+}
+
+footer {
+  clear: both;
+}
+
+ul {
+  padding: 40px;
+}
+
+ul li {
+  margin-bottom: 30px;
 }
