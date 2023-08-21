@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -34,7 +35,6 @@ body {
 
 .product-details {
   font-size: 17px;
-  margin-top: 25px;
   margin-bottom: 13px;
 }
 
@@ -72,6 +72,7 @@ body {
 
 .product-description {
   margin-bottom: 5px;
+  clear: both;
 }
 
 /* BUTTONS */
@@ -142,4 +143,32 @@ body {
 
 .brown {
   background-color: rgb(110, 18, 18);
+}
+
+.converse-img {
+  float: left;
+  width: 250px;
+  margin-right: 40px;
+}
+
+.pricing-box {
+  float: left;
+  width: 242px;
+  margin-right: 40px;
+  margin-top: 25px;
+}
+
+.details-box {
+  float: left;
+  width: 242px;
+  margin-top: 25px;
+}
+
+.product-price {
+  float: left;
+}
+
+.shipping {
+  float: right;
+  margin-top: 6px;
 }

@@ -156,7 +156,8 @@ a:active {
   background-color: black;
 }
 
-ol {
+ol,
+article ul {
   margin-left: 70px;
 }
 
@@ -216,10 +217,10 @@ footer {
   clear: both;
 }
 
-ul {
+aside ul {
   padding: 40px;
 }
 
-ul li {
+aside ul li {
   margin-bottom: 30px;
 }
