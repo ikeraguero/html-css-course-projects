@@ -177,7 +177,7 @@ h1::first-letter {
   font-style: normal;
 }
 
-/* FLOATS */
+/* FLOATS 
 
 .author-img {
   float: left;
@@ -223,4 +223,18 @@ aside ul {
 
 aside ul li {
   margin-bottom: 30px;
+}
+
+*/
+
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.posted-by-image-and-text {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
