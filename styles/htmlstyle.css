@@ -52,7 +52,6 @@ aside {
   border-bottom: #1098ad solid 5px;
   margin-top: 50px;
   padding: 50px 0;
-  width: 500px;
 }
 
 .posted-by {
@@ -105,6 +104,7 @@ li {
 
 .related {
   list-style: none;
+  width: 100%;
 }
 
 /*footer p {
@@ -237,4 +237,29 @@ aside ul li {
   display: flex;
   align-items: center;
   gap: 1rem;
+}
+
+.related {
+  margin-left: 40px;
+}
+
+.post {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  gap: 1rem;
+}
+
+.post:last-child {
+  margin-bottom: 0px;
+}
+
+.related-author {
+  font-style: italic;
+  font-weight: normal;
+  font-size: medium;
+}
+
+.related-link:link {
+  font-weight: bold;
 }
