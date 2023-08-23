@@ -56,7 +56,7 @@ aside {
 
 .posted-by {
   font-style: italic;
-  font-size: 19px;
+  font-size: 20px;
 }
 
 .post-header {
@@ -240,13 +240,13 @@ aside ul li {
 }
 
 .related {
-  margin-left: 40px;
+  padding: 35px;
 }
 
 .post {
   display: flex;
   align-items: center;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   gap: 1rem;
 }
 
@@ -262,4 +262,16 @@ aside ul li {
 
 .related-link:link {
   font-weight: bold;
+}
+
+.create-flex {
+  display: flex;
+  flex: 0 0 300px;
+  /* flex: flex grow, flax-shrink, flex-basis */
+  gap: 50px;
+  align-items: flex-start;
+}
+
+article {
+  flex: 0 0 800px;
 }
