@@ -41,14 +41,12 @@ body {
 .details {
   list-style: square;
   margin-left: 18px;
-  margin-bottom: 10px;
 }
 
 .shipping {
   color: #636363;
   font-weight: bold;
   font-size: 15px;
-  margin-bottom: 20px;
 }
 
 /* PRODUCT DETAILS */
@@ -72,7 +70,6 @@ body {
 
 .product-description {
   margin-bottom: 5px;
-  clear: both;
 }
 
 /* BUTTONS */
@@ -113,11 +110,11 @@ body {
 
 .colors {
   margin-top: 30px;
+  display: flex;
+  gap: 14px;
 }
 
 .color {
-  display: inline-block;
-  margin-right: 10px;
   padding: 13px;
 }
 
@@ -146,29 +143,27 @@ body {
 }
 
 .converse-img {
-  float: left;
-  width: 250px;
-  margin-right: 40px;
+  flex: 1;
 }
 
 .pricing-box {
-  float: left;
-  width: 242px;
-  margin-right: 40px;
-  margin-top: 25px;
+  flex: 1;
+}
+
+.price-and-shipping {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  margin-bottom: 13px;
 }
 
 .details-box {
-  float: left;
-  width: 242px;
-  margin-top: 25px;
+  flex: 1;
+  gap: 20px;
 }
 
-.product-price {
-  float: left;
-}
-
-.shipping {
-  float: right;
-  margin-top: 6px;
+.container {
+  display: flex;
+  gap: 40px;
+  align-items: center;
 }
