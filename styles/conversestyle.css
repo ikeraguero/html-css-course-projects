@@ -35,7 +35,7 @@ body {
 
 .product-details {
   font-size: 17px;
-  margin-bottom: 13px;
+  margin-bottom: 14px;
 }
 
 .details {
@@ -154,7 +154,7 @@ body {
   display: flex;
   gap: 30px;
   align-items: center;
-  margin-bottom: 13px;
+  margin-bottom: 10px;
 }
 
 .details-box {

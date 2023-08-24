@@ -178,3 +178,9 @@ h2:after {
   top: 0;
   right: -4px;
 }
+
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
