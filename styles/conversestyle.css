@@ -69,7 +69,6 @@ body {
 }
 
 .product-description {
-  margin-bottom: 5px;
 }
 
 /* BUTTONS */
@@ -109,7 +108,7 @@ body {
 }
 
 .colors {
-  margin-top: 30px;
+  margin-top: 15px;
   display: flex;
   gap: 14px;
 }
@@ -143,16 +142,14 @@ body {
 }
 
 .converse-img {
-  flex: 1;
 }
 
 .pricing-box {
-  flex: 1;
 }
 
 .price-and-shipping {
   display: flex;
-  gap: 30px;
+  gap: 50px;
   align-items: center;
   margin-bottom: 10px;
 }
@@ -162,8 +159,17 @@ body {
   gap: 20px;
 }
 
-.container {
-  display: flex;
-  gap: 40px;
+.product {
+  display: grid;
+  grid-template-columns: 250px 1fr 1fr;
+  column-gap: 20px;
   align-items: center;
+}
+
+header {
+  grid-column: 1 / -1;
+}
+
+.add-cart {
+  grid-column: 1 / -1;
 }
