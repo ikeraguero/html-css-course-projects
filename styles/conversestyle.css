@@ -141,12 +141,6 @@ body {
   background-color: rgb(110, 18, 18);
 }
 
-.converse-img {
-}
-
-.pricing-box {
-}
-
 .price-and-shipping {
   display: flex;
   gap: 50px;
