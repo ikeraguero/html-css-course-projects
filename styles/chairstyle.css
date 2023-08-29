@@ -17,12 +17,19 @@ header {
   display: grid;
   grid-template-columns: 440px 440px;
   column-gap: 80px;
+  align-items: center;
+}
+
+section {
+  margin-top: 40px;
 }
 
 .three-cols {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 80px;
+  margin-top: 40px;
+  align-items: center;
 }
 
 .customers {
@@ -47,4 +54,12 @@ ul {
 .worker-bee-img,
 .the-chair-img {
   width: 100%;
+}
+
+li {
+  margin-top: 25px;
+}
+
+.chair-box {
+  padding: 24px;
 }
