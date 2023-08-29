@@ -16,11 +16,13 @@
 header {
   display: grid;
   grid-template-columns: 440px 440px;
+  column-gap: 80px;
 }
 
 .three-cols {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 80px;
 }
 
 .customers {
@@ -38,6 +40,7 @@ ul {
 .bestselling-chairs {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 80px;
 }
 
 .laid-back-img,
