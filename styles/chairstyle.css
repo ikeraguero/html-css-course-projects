@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.header-image {
+  width: 100%;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 440px 440px;
+}
+
+.three-cols {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.customers {
+  width: 100%;
+}
+
+.quote {
+  grid-column: 2 / -1;
+}
+
+ul {
+  list-style: none;
+}
+
+.bestselling-chairs {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.laid-back-img,
+.worker-bee-img,
+.the-chair-img {
+  width: 100%;
+}
