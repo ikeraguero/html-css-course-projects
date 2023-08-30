@@ -92,3 +92,13 @@ blockquote {
   font-style: italic;
   margin-bottom: 24px;
 }
+
+.price-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer {
+  margin-bottom: 40px;
+}
