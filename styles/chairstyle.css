@@ -13,22 +13,38 @@
   width: 100%;
 }
 
+h1,
+.header-text {
+  margin-bottom: 24px;
+}
+
 header {
   display: grid;
   grid-template-columns: 440px 440px;
   column-gap: 80px;
   align-items: center;
+  margin-top: 48px;
 }
 
-section {
-  margin-top: 40px;
+section,
+header {
+  margin-bottom: 48px;
 }
 
-.three-cols {
+.three-cols,
+.three-cols-quote {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 80px;
   margin-top: 40px;
+  margin-bottom: 48px;
+}
+
+.three-cols {
+  align-items: start;
+}
+
+.three-cols-quote {
   align-items: center;
 }
 
@@ -62,4 +78,17 @@ li {
 
 .chair-box {
   padding: 24px;
+}
+
+.feature-text {
+  margin-top: 15px;
+}
+
+.testemonial-box {
+  margin-bottom: 24px;
+}
+
+blockquote {
+  font-style: italic;
+  margin-bottom: 24px;
 }
