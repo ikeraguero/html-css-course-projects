@@ -148,3 +148,28 @@ footer {
 h3 {
   font-size: 20px;
 }
+
+.btn:link,
+.btn:active {
+  background-color: #087f5b;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.btn--big {
+  padding: 16px 32px;
+  display: inline-block;
+}
+
+.btn--small {
+  font-size: 14px;
+  padding: 6px 14px;
+}
+
+.three-cols-quote {
+  background-color: #087f5b;
+  color: white;
+  padding: 20px;
+}
