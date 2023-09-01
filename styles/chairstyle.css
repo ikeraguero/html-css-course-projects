@@ -12,6 +12,10 @@ FONT SIZE SYSTEM (px)
   font-family: "Inter", sans-serif;
 }
 
+body {
+  color: #343a40;
+}
+
 .container {
   width: 960px;
   margin: 0 auto;
@@ -150,12 +154,17 @@ h3 {
 }
 
 .btn:link,
-.btn:active {
+.btn:visited {
   background-color: #087f5b;
   color: white;
   text-transform: uppercase;
   font-weight: bold;
   text-decoration: none;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #099268;
 }
 
 .btn--big {
