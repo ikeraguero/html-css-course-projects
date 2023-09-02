@@ -182,3 +182,15 @@ h3 {
   color: white;
   padding: 20px;
 }
+
+.features-icon {
+  width: 32px;
+  height: auto;
+  stroke: #087f5b;
+}
+
+.chair-box-icons {
+  width: 22px;
+  height: 22px;
+  stroke: #087f5b;
+}
