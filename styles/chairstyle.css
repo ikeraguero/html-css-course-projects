@@ -194,3 +194,9 @@ h3 {
   height: 22px;
   stroke: #087f5b;
 }
+
+li {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
