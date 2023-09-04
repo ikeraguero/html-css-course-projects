@@ -200,3 +200,9 @@ li {
   align-items: center;
   gap: 5px;
 }
+
+.laid-back,
+.worker-bee,
+.the-chair {
+  box-shadow: 1px 20px 30px 2px rgb(0, 0, 0, 0.07);
+}
