@@ -206,3 +206,7 @@ li {
 .the-chair {
   box-shadow: 1px 20px 30px 2px rgb(0, 0, 0, 0.07);
 }
+
+.btn {
+  border-radius: 1000px;
+}
