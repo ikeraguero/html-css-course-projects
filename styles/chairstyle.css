@@ -91,14 +91,11 @@ header {
 
 .three-cols {
   margin-top: 32px;
-}
-
-.three-cols-quote {
-  margin-top: 48px;
+  margin-bottom: 64px;
 }
 
 .best-selling-chairs {
-  margin-top: 48px;
+  margin-top: 64px;
 }
 
 .three-cols {
@@ -241,4 +238,8 @@ li:first-child {
 .worker-bee,
 .the-chair {
   border-radius: 10px;
+}
+
+.best-selling-chairs .three-cols {
+  padding: 90px;
 }
