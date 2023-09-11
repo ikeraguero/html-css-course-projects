@@ -15,16 +15,48 @@
   <body>
     <div class="carousel">
       <img src="images/maria.jpg" alt="maria" />
-      <div class="testimonial">
-        <div class="testimonial-text">
+      <blockquote class="testimonial">
+        <p class="testimonial-text">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium
           vel animi, magni, ratione saepe maxime quaerat modi provident dicta,
           ad illo nemo quos laborum soluta velit consectetur itaque vero
           quisquam?
-        </div>
-        <div class="testimonial-author">Yasmim Bernardi</div>
-        <div class="testiominal-job">Fundadora do grupo Childcare Brasil</div>
-      </div>
+        </p>
+        <p class="testimonial-author">Yasmim Bernardi</p>
+        <p class="testiominal-job">Fundadora do grupo Childcare Brasil</p>
+      </blockquote>
+      <button class="btn">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="btn-icon"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M15.75 19.5L8.25 12l7.5-7.5"
+          />
+        </svg>
+      </button>
+      <button class="btn">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="btn-icon"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M15.75 19.5L8.25 12l7.5-7.5"
+          />
+        </svg>
+      </button>
     </div>
   </body>
   <style>
@@ -49,10 +81,15 @@ FONT SIZE SYSTEM (px)
 
     .carousel {
       width: 800px;
+      background-color: #087f5b;
+      margin: 100px auto;
+      padding: 74px;
+      display: flex;
+      align-items: center;
     }
 
     img {
-      width: 30%;
+      height: 200px;
     }
   </style>
 </html>
