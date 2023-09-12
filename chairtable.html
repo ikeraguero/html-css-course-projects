@@ -28,6 +28,12 @@
           <td>220 cm</td>
         </tr>
         <tr>
+          <th>Height</th>
+          <td>100 cm</td>
+          <td>80 cm</td>
+          <td>90 cm</td>
+        </tr>
+        <tr>
           <th>Depth</th>
           <td>70 cm</td>
           <td>65 cm</td>
@@ -58,6 +64,31 @@
     body {
       color: #343a40;
       line-height: 1.5;
+      font-size: 18px;
+    }
+
+    table {
+      margin: 100px auto;
+      width: 800px;
+      border-collapse: collapse;
+    }
+
+    thead th {
+      background-color: #087f5b;
+      color: #ffff;
+      width: 25%;
+    }
+
+    th {
+      padding: 16px 24px;
+      text-align: left;
+    }
+
+    tr:nth-child(odd) {
+      background-color: #f1f3f5;
+    }
+    tr:nth-child(even) {
+      background-color: #e9ecef;
     }
   </style>
 </html>
