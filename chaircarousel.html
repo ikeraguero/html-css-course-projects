@@ -55,6 +55,12 @@
           />
         </svg>
       </button>
+      <div class="dots">
+        <div class="dot circled">&nbsp;</div>
+        <div class="dot">&nbsp;</div>
+        <div class="dot">&nbsp;</div>
+        <div class="dot">&nbsp;</div>
+      </div>
     </div>
   </body>
   <style>
@@ -124,6 +130,7 @@
       width: 40px;
       border: none;
       position: absolute;
+      cursor: pointer;
     }
 
     .btn-icon {
@@ -134,10 +141,39 @@
 
     .btn--right {
       right: 0;
+      top: 50%;
+      transform: translate(50%, -50%);
     }
 
     .btn--left {
       left: 0;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .dots {
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%, 150%);
+      display: flex;
+      gap: 20px;
+      bottom: 0;
+    }
+
+    .dot {
+      background-color: #ffffff;
+      border: 3px solid #087f5b;
+      border-radius: 50%;
+      width: 18px;
+      height: 18px;
+    }
+
+    .dot:hover {
+      cursor: pointer;
+    }
+
+    .circled {
+      background-color: #087f5b;
     }
   </style>
 </html>
