@@ -30,14 +30,14 @@
           />
         </svg>
       </button>
-      <div class="btn btn--number">1</div>
-      <div class="btn btn--number">2</div>
-      <div class="btn btn--number-circled">3</div>
-      <div class="btn btn--number">4</div>
-      <div class="btn btn--number">5</div>
-      <div class="btn btn--number">6</div>
+      <a class="btn btn--number" href="#">1</a>
+      <a class="btn btn--number" href="#">2</a>
+      <a class="btn btn--number-circled" href="#">3</a>
+      <a class="btn btn--number" href="#">4</a>
+      <a class="btn btn--number" href="#">5</a>
+      <a class="btn btn--number" href="#">6</a>
       <span>...</span>
-      <div class="btn btn--number">23</div>
+      <a class="btn btn--number" href="#">23</a>
       <button class="btn btn--right">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -89,6 +89,7 @@
 
     .btn {
       border: none;
+      color: #343a40;
       background-color: #fff;
       height: 34px;
       width: 34px;
@@ -96,6 +97,12 @@
       align-items: center;
       display: flex;
       justify-content: center;
+      text-decoration: none;
+    }
+
+    .btn:active,
+    .btn:visited {
+      color: #343a40;
     }
 
     .btn:hover {
