@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Chair Pagination</title>
+  </head>
+  <body>
+    <div class="pagination-container">
+      <button class="btn btn--left">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="btn-icon"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M15.75 19.5L8.25 12l7.5-7.5"
+          />
+        </svg>
+      </button>
+      <div class="btn btn--number">1</div>
+      <div class="btn btn--number">2</div>
+      <div class="btn btn--number-circled">3</div>
+      <div class="btn btn--number">4</div>
+      <div class="btn btn--number">5</div>
+      <div class="btn btn--number">6</div>
+      <span>...</span>
+      <div class="btn btn--number">23</div>
+      <button class="btn btn--right">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="btn-icon"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M8.25 4.5l7.5 7.5-7.5 7.5"
+          />
+        </svg>
+      </button>
+    </div>
+  </body>
+  <style>
+    /*
+    SPACING SYSTEM (px)
+    2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+    FONT SIZE SYSTEM (px)
+    10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+    */
+
+    * {
+      margin: 0;
+      padding: 0;
+      font-family: "Inter", sans-serif;
+    }
+
+    body {
+      color: #343a40;
+      line-height: 1.5;
+      font-size: 18px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .pagination-container {
+      margin: 100px auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .btn {
+      border: none;
+      background-color: #fff;
+      height: 34px;
+      width: 34px;
+      border-radius: 50%;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+    }
+
+    .btn:hover {
+      cursor: pointer;
+    }
+
+    .btn--number-circled,
+    .btn--number-circled:hover,
+    .btn:hover {
+      background-color: #087f5b;
+      color: #fff;
+      height: 34px;
+      width: 34px;
+      border-radius: 50%;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+    }
+
+    .btn-icon {
+      height: 24px;
+      width: 24px;
+    }
+
+    .btn-icon {
+      stroke: #087f5b;
+    }
+
+    .btn--left,
+    .btn--right {
+      background-color: #fff;
+      border: 2px solid #087f5b;
+      border-radius: 50%;
+      height: 34px;
+      width: 34px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .btn--left:hover,
+    .btn--right:hover {
+      background-color: #087f5b;
+    }
+
+    .btn--left:hover svg,
+    .btn--right:hover svg {
+      stroke: #fff;
+    }
+  </style>
+</html>
