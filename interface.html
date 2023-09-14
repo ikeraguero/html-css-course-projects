@@ -8,30 +8,28 @@
   </head>
   <body>
     <nav>Nav</nav>
-    <div class="page-content">
-      <div class="email-options">
-        <div class="email-buttons">
-          <p>New</p>
-          <p>Reply</p>
-          <p>Forward</p>
-          <p>Mark unread</p>
-        </div>
-        <div class="trash">Trash</div>
+    <div class="email-options">
+      <div class="email-buttons btn">
+        <p>New</p>
+        <p>Reply</p>
+        <p>Forward</p>
+        <p>Mark unread</p>
       </div>
-      <div class="email-box">
-        <div class="email">Email 1</div>
-        <div class="email">Email 2</div>
-        <div class="email">Email 3</div>
-        <div class="email">Email 4</div>
-        <div class="email">Email 5</div>
-        <div class="email">Email 6</div>
-        <div class="email">Email 7</div>
-        <div class="email">Email 8</div>
-        <div class="email">Email 9</div>
-      </div>
-      <div class="email-view">Email View</div>
-      <div class="additional-info">Additional Info</div>
+      <div class="trash btn">Trash</div>
     </div>
+    <div class="email-box">
+      <div class="email">Email 1</div>
+      <div class="email">Email 2</div>
+      <div class="email">Email 3</div>
+      <div class="email">Email 4</div>
+      <div class="email">Email 5</div>
+      <div class="email">Email 6</div>
+      <div class="email">Email 7</div>
+      <div class="email">Email 8</div>
+      <div class="email">Email 9</div>
+    </div>
+    <div class="email-view">Email View</div>
+    <div class="additional-info">Additional Info</div>
   </body>
 </html>
 
@@ -44,41 +42,53 @@
 
   body {
     display: grid;
-    grid-template-columns: 5% 95%;
+    grid-template-columns: 80px 400px 1fr 250px;
+    grid-template-rows: 80px 1fr;
+    font-family: sans-serif;
+    height: 100vh;
   }
 
   nav {
-    background-color: grey;
     display: flex;
     justify-content: center;
-  }
-
-  .page-content {
-    background-color: orange;
-    display: grid;
-    grid-template-columns: 30% 50% 20%;
+    background-color: #343a40;
+    color: #fff;
+    font-weight: 700;
+    font-size: 24px;
+    padding: 16px 0;
+    grid-row: 1 / -1;
   }
 
   .email-buttons {
     display: flex;
-    gap: 30px;
+    gap: 15px;
+  }
+
+  .email-buttons p {
+    background-color: #5f3dc4;
+    padding: 4px 10px;
   }
 
   .email-options {
-    background-color: aqua;
+    background-color: #7950f2;
+    color: #fff;
     display: flex;
     justify-content: space-between;
     align-items: center;
     grid-column: 1 / 4;
-    height: 10vh;
+    font-size: 18px;
+    padding: 0 32px;
+    font-weight: 700;
+    grid-column: 2 / -1;
   }
 
   .email-box {
-    background-color: bisque;
+    background-color: #dee2e6;
+    overflow: auto;
+    grid-column: 2;
   }
 
   .email-view {
-    background-color: blueviolet;
     display: flex;
     justify-content: center;
   }
@@ -86,10 +96,18 @@
   .additional-info {
     display: flex;
     justify-content: center;
+    background-color: #dee2e6;
+  }
+
+  .email-view,
+  .additional-info {
+    padding: 16px 0;
+    font-weight: 500;
+    font-size: 24px;
   }
 
   .email {
-    background-color: gray;
+    background-color: #adb5bd;
     margin-bottom: 44px;
     display: flex;
     justify-content: center;
@@ -97,9 +115,20 @@
     margin-left: 50%;
     transform: translate(-50%);
     padding: 40px 0;
+    font-size: 20px;
+    font-weight: 500;
   }
 
   .email:first-child {
     margin-top: 44px;
+  }
+
+  .trash {
+    background-color: #e03131;
+    padding: 4px 10px;
+  }
+
+  .btn:hover {
+    cursor: pointer;
   }
 </style>
