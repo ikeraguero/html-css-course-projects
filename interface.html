@@ -17,7 +17,7 @@
       </div>
       <div class="trash btn">Trash</div>
     </div>
-    <div class="email-box">
+    <section class="email-box">
       <div class="email">Email 1</div>
       <div class="email">Email 2</div>
       <div class="email">Email 3</div>
@@ -27,9 +27,9 @@
       <div class="email">Email 7</div>
       <div class="email">Email 8</div>
       <div class="email">Email 9</div>
-    </div>
-    <div class="email-view">Email View</div>
-    <div class="additional-info">Additional Info</div>
+    </section>
+    <main class="email-view">Email View</main>
+    <aside class="additional-info">Additional Info</aside>
   </body>
 </html>
 
@@ -86,6 +86,9 @@
     background-color: #dee2e6;
     overflow: auto;
     grid-column: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 44px;
   }
 
   .email-view {
@@ -108,7 +111,6 @@
 
   .email {
     background-color: #adb5bd;
-    margin-bottom: 44px;
     display: flex;
     justify-content: center;
     width: 70%;
