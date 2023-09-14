@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page Layout</title>
+  </head>
+  <body>
+    <nav>Nav</nav>
+    <div class="page-content">
+      <div class="email-options">
+        <div class="email-buttons">
+          <p>New</p>
+          <p>Reply</p>
+          <p>Forward</p>
+          <p>Mark unread</p>
+        </div>
+        <div class="trash">Trash</div>
+      </div>
+      <div class="email-box">
+        <div class="email">Email 1</div>
+        <div class="email">Email 2</div>
+        <div class="email">Email 3</div>
+        <div class="email">Email 4</div>
+        <div class="email">Email 5</div>
+        <div class="email">Email 6</div>
+        <div class="email">Email 7</div>
+        <div class="email">Email 8</div>
+        <div class="email">Email 9</div>
+      </div>
+      <div class="email-view">Email View</div>
+      <div class="additional-info">Additional Info</div>
+    </div>
+  </body>
+</html>
+
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    display: grid;
+    grid-template-columns: 5% 95%;
+  }
+
+  nav {
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+  }
+
+  .page-content {
+    background-color: orange;
+    display: grid;
+    grid-template-columns: 30% 50% 20%;
+  }
+
+  .email-buttons {
+    display: flex;
+    gap: 30px;
+  }
+
+  .email-options {
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-column: 1 / 4;
+    height: 10vh;
+  }
+
+  .email-box {
+    background-color: bisque;
+  }
+
+  .email-view {
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+  }
+
+  .additional-info {
+    display: flex;
+    justify-content: center;
+  }
+
+  .email {
+    background-color: gray;
+    margin-bottom: 44px;
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    margin-left: 50%;
+    transform: translate(-50%);
+    padding: 40px 0;
+  }
+
+  .email:first-child {
+    margin-top: 44px;
+  }
+</style>
