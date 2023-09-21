@@ -218,3 +218,29 @@ body {
 .nav-btn:visited {
   color: #b8651b;
 }
+
+/* REUSABLE */
+
+.container {
+  width: 120rem;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  gap: 9.6rem;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.how-section {
+  padding: 9.6rem 0;
+  background-color: #b8651b;
+}
+
+.how-section div div {
+  font-size: 4.4rem;
+  padding: 4.8rem 1.6rem;
+}
