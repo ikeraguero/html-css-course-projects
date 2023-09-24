@@ -323,3 +323,25 @@ body {
   transform: translate(-50%, -50%);
   z-index: -1;
 }
+
+.featured-in {
+  padding: 4.8rem 0;
+}
+
+.featured-title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2.4rem;
+  color: #777;
+}
+
+.featured-imgs {
+  display: flex;
+  justify-content: space-around;
+}
+
+.featured-imgs img {
+  height: 3.2rem;
+  filter: brightness(0%);
+  opacity: 50%;
+}
