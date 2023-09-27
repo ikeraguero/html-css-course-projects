@@ -64,6 +64,59 @@ nav {
   border-top-left-radius: 0rem;
 }
 
+.hero-img-container {
+  position: relative;
+  top: 50%;
+}
+
+.hero-search-container {
+  width: 92%;
+  box-shadow: 10px 10px 5px 5px #c9c9c9;
+  margin: 0 auto;
+  padding: 2.4rem 6.75rem 1.4rem 1rem;
+  border-radius: 0.4rem;
+  border-top-left-radius: 0;
+  background-color: #fff;
+}
+
+.nav-search-item:active,
+.nav-search-item:link,
+.nav-search-item:hover,
+.nav-search-item:visited {
+  color: #c9c9c9;
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+
+.item--selected.nav-search-item:active,
+.item--selected.nav-search-item:link,
+.item--selected.nav-search-item:hover,
+.item--selected.nav-search-item:visited {
+  color: rgb(16, 0, 79);
+  border-bottom: 1px solid rgb(232, 17, 75);
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.hero-nav-search-container {
+  width: 46%;
+  margin-left: 3rem;
+  padding: 1.2rem 1.4rem;
+  display: flex;
+  gap: 2.4rem;
+  border-top-right-radius: 0.4rem;
+  border-top-left-radius: 0.4rem;
+  background-color: #fff;
+}
+
+.travel-searcher {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 80%;
+}
+
 .search-item:link,
 .search-item:active,
 .search-item:hover,
@@ -75,7 +128,7 @@ nav {
 
 .search-destinations {
   display: flex;
-  gap: 1rem;
+  gap: 0.8rem;
 }
 
 .search-date {
@@ -84,8 +137,9 @@ nav {
 }
 
 .search-options {
-  padding: 2.8rem 1rem 1.4rem 1rem;
   display: flex;
+  margin-bottom: 1.2rem;
+  padding: 0 0.8rem;
   gap: 3rem;
 }
 
@@ -98,6 +152,7 @@ nav {
 .input--departure {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
+  border-right: none;
 }
 
 .input--return {
@@ -106,7 +161,6 @@ nav {
 }
 
 .search-btn {
-  display: inline-block;
   font-size: 1rem;
   color: #fff;
   background-color: rgb(232, 17, 75);
