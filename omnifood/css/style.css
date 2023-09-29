@@ -242,6 +242,10 @@ body {
   grid-template-columns: repeat(2, 1fr);
 }
 
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
 .how-section {
   padding: 9.6rem 0;
 }
@@ -256,10 +260,12 @@ body {
   margin-bottom: 1.2rem;
 }
 
-.howitworks-description {
+.howitworks-description,
+.meals-description {
   font-size: 4.4rem;
   font-weight: 700;
   margin-bottom: 9.6rem;
+  color: #333;
 }
 
 .howitworks-description,
