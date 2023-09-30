@@ -254,10 +254,15 @@ body {
   width: 30%;
 }
 
-.second-heading {
+.section-title {
   color: #b8651b;
   font-weight: 500;
   margin-bottom: 1.6rem;
+}
+
+.container.meals.section-title {
+  display: flex;
+  justify-content: center;
 }
 
 .howitworks-description,
@@ -465,7 +470,8 @@ body {
   display: flex;
   justify-content: center;
   font-size: 2rem;
-  margin-top: 4.4rem;
+  padding-top: 6.4rem;
+  padding-bottom: 9.6rem;
 }
 
 .recipes-link:link,
@@ -480,6 +486,10 @@ body {
   background-color: #fdf2e9;
 }
 
+.testimonials-box {
+  padding-left: 8rem;
+}
+
 .testimonial-images-box {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -492,13 +502,47 @@ body {
 }
 
 .quotes-grid {
+  padding-top: 10.8rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
+  column-gap: 6.4rem;
+  row-gap: 6.4rem;
 }
 
 .testimonials-box h2 {
   color: #b8651b;
   text-transform: uppercase;
   font-size: 1.4rem;
+  margin-bottom: 0.8rem;
+}
+
+.testimonials-description {
+  font-size: 4.4rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.quote-img {
+  border-radius: 50%;
+  width: 6.4rem;
+  height: 6.4rem;
+  margin-bottom: 1.6rem;
+}
+
+.quote-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  margin-bottom: 1.6rem;
+}
+
+.quote-author {
+  font-size: 1.8rem;
+  color: #777;
+}
+
+.testimonial-grid {
+  display: grid;
+  column-gap: 8rem;
+  padding: 1.4rem;
 }
