@@ -257,7 +257,7 @@ body {
 .second-heading {
   color: #b8651b;
   font-weight: 500;
-  margin-bottom: 1.2rem;
+  margin-bottom: 1.6rem;
 }
 
 .howitworks-description,
@@ -352,6 +352,21 @@ body {
   opacity: 50%;
 }
 
+.meals-title,
+.meals-description {
+  display: flex;
+  justify-content: center;
+}
+
+.meals-title {
+  color: #b8651b;
+  margin-bottom: 1.6rem;
+}
+
+.meal {
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+}
+
 .meal-img {
   width: 100%;
   border-top-right-radius: 9px;
@@ -444,4 +459,46 @@ body {
   color: #e67e22;
   height: 2.4rem;
   width: 2.4rem;
+}
+
+.recipes {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  margin-top: 4.4rem;
+}
+
+.recipes-link:link,
+.recipes-link:visited,
+.recipes:hover,
+.recipes:active {
+  color: #e67e22;
+}
+
+.testimonials-section {
+  padding: 9.6rem 0;
+  background-color: #fdf2e9;
+}
+
+.testimonial-images-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 1.4rem;
+}
+
+.testimonial-images-box img {
+  width: 100%;
+}
+
+.quotes-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.testimonials-box h2 {
+  color: #b8651b;
+  text-transform: uppercase;
+  font-size: 1.4rem;
 }
