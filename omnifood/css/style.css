@@ -496,32 +496,41 @@ body {
 }
 
 .testimonials-section {
-  padding: 9.6rem 0;
   background-color: #fdf2e9;
+  display: grid;
+  grid-template-columns: 55fr 45fr;
 }
 
 .testimonials-box {
-  padding-left: 8rem;
+  padding: 9.6rem 3.8rem;
 }
 
 .testimonial-images-box {
   display: grid;
+  padding: 1.6rem;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
-  gap: 1.4rem;
+  gap: 1.6rem;
 }
 
-.testimonial-images-box img {
+.testimonial-images-box figure {
+  overflow: hidden;
+}
+
+.testimonial-images-box figure img {
   width: 100%;
+  transition: all 0.4s;
+  display: block;
+}
+
+.testimonial-images-box figure img:hover {
 }
 
 .quotes-grid {
-  padding-top: 10.8rem;
+  padding-top: 9.6rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  column-gap: 6.4rem;
-  row-gap: 6.4rem;
+  column-gap: 3.6rem;
+  row-gap: 8rem;
 }
 
 .testimonials-box h2 {
