@@ -258,6 +258,8 @@ body {
   color: #b8651b;
   font-weight: 500;
   margin-bottom: 1.6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
 }
 
 .container.meals.section-title {
@@ -574,4 +576,91 @@ body {
 
 .images-box {
   padding-left: 8rem;
+}
+
+.pricing {
+  padding-top: 9.6rem;
+}
+
+.pricing-description {
+  font-size: 4.4rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.pricing-cards {
+  padding-top: 4.4rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+}
+
+.plan-name {
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: #cf711f;
+  font-weight: 600;
+  margin-bottom: 2.4rem;
+}
+
+.plan-price {
+  font-size: 4.8rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 1.8rem;
+}
+
+.plan-text {
+  font-size: 1.4rem;
+}
+
+.eating-btn:link,
+.eating-btn:visited {
+  font-size: 1.8rem;
+  background-color: #e67e22;
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+  display: block;
+}
+
+.plan-list ul li {
+  list-style: none;
+  font-size: 1.8rem;
+}
+
+.card-item {
+  width: 75%;
+  border: 1px solid #333;
+  display: flex;
+  justify-content: center;
+}
+
+.card-content header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 2.4rem;
+}
+
+.plan-list ul li {
+  list-style: none;
+  font-size: 1.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+.plan-list ul {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.card-content {
+  margin: 4.8rem;
 }
