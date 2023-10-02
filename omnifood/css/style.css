@@ -498,11 +498,13 @@ body {
 .testimonials-section {
   background-color: #fdf2e9;
   display: grid;
+  padding: 9.6rem 3.8rem;
   grid-template-columns: 55fr 45fr;
 }
 
 .testimonials-box {
-  padding: 9.6rem 3.8rem;
+  padding-left: 4.4rem;
+  padding-right: 4.4rem;
 }
 
 .testimonial-images-box {
