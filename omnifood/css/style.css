@@ -588,16 +588,11 @@ body {
   color: #333;
 }
 
-.pricing-cards {
+.pricing-cards-grid {
   padding-top: 4.4rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
-}
-
-.card-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  justify-content: center;
+  gap: 6.4rem;
 }
 
 .plan-name {
@@ -636,16 +631,30 @@ body {
 
 .card-item {
   width: 75%;
-  border: 1px solid #333;
-  display: flex;
-  justify-content: center;
+  border: 1px solid #fdf2e9;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.complete::before {
+  content: "BEST VALUE";
+  background-color: #ffd43b;
+  position: absolute;
+  top: 5%;
+  right: -10%;
+  font-size: 1.4rem;
+  font-weight: 700;
+  padding: 0.8rem 3.8rem;
+  transform: rotate(45deg);
+}
+
+.starter {
+  justify-self: end;
 }
 
 .card-content header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   padding-bottom: 4.4rem;
+  text-align: center;
 }
 
 .plan-list ul li {
@@ -683,4 +692,13 @@ body {
 
 .complete {
   background-color: #fdf2e9;
+  position: relative;
+}
+
+.price-text {
+  padding-top: 4.4rem;
+  font-size: 1.6rem;
+  line-height: 1.6;
+  display: flex;
+  justify-content: center;
 }
