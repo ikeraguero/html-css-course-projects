@@ -609,14 +609,14 @@ body {
 }
 
 .plan-price {
-  font-size: 4.8rem;
+  font-size: 5.2rem;
   font-weight: 700;
   color: #333;
   margin-bottom: 1.8rem;
 }
 
 .plan-text {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
 }
 
 .eating-btn:link,
@@ -645,15 +645,15 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 2.4rem;
+  padding-bottom: 4.4rem;
 }
 
 .plan-list ul li {
   list-style: none;
   font-size: 1.8rem;
   display: flex;
-  flex-direction: column;
-  gap: 2.4rem;
+  align-items: center;
+  gap: 1.2rem;
 }
 .plan-list ul {
   display: flex;
@@ -661,6 +661,26 @@ body {
   gap: 2rem;
 }
 
+.plan-list {
+  margin-bottom: 4.4rem;
+}
+
 .card-content {
   margin: 4.8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.plan-icon {
+  color: #e67e22;
+}
+
+.plan-icon {
+  width: 3.2rem;
+  height: 3.2rem;
+}
+
+.complete {
+  background-color: #fdf2e9;
 }
