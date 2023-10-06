@@ -712,11 +712,10 @@ body {
   justify-content: center;
 }
 
-.feature-circle {
-  background-color: #ffecdd;
-  padding: 1.4rem 1.6rem;
+.feature-icon {
+  background-color: #ffe2ca;
+  padding: 1.6rem;
   border-radius: 50%;
-  display: inline-block;
   margin-bottom: 2.4rem;
 }
 
