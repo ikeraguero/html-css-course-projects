@@ -359,17 +359,29 @@
         <section clas=="cta-section">
           <div class="container grid grid--3-cols grid--cta">
             <div class="cta-text">
-              <h2>Get your first meal for free</h2>
-              <p>Healthy, tasty and hassle-free meals are waiting for you. Start eating well today. You can cancel or pause anytime. And the first meal is on us! </p>
-              <div class="grid grid--2-cols">
-                <input type="text" placeholder="John Smith">
-                <input type="text" placeholder="me@example.com">
-                <select name="Plase choose an option" id="">
-                  <option value="A">A</option>
-                  <option value="A">A</option>
-                  <option value="A">A</option>
-                </select>
-                <div class="btn">Sign up now</div>
+              <h2 class="cta-title">Get your first meal for free!</h2>
+              <p class="cta-subtitle">Healthy, tasty and hassle-free meals are waiting for you. Start eating well today. You can cancel or pause anytime. And the first meal is on us! </p>
+              <div class="grid grid--2-cols grid--cta-small">
+                <div class="cta-text-grid-item">
+                  <label for="full-name">Full Name</label>
+                  <input type="text" placeholder="John Smith">
+                </div>
+                <div class="cta-text-grid-item">
+                  <label for="email">Email Address</label>
+                  <input type="text" placeholder="me@example.com">
+                </div>
+                <div class="cta-text-grid-item">
+                  <label for="">Where did you hear from us?</label>
+                  <select name="" id="">
+                    <option value="">Please choose an option</option>
+                    <option value="A">A</option>
+                    <option value="A">A</option>
+                  </select>
+                </div>
+                <div class="cta-text-grid-item">
+                  <label for="email">A</label>
+                  <button class="btn">Sign up now</button>
+                </div>
               </div>
             </div>
             <div class="cta-image">
