@@ -911,3 +911,7 @@ footer {
 .copyright {
   font-weight: 300;
 }
+
+.grid--footer {
+  padding: 9.6rem 4.8rem 9.6rem 4.8rem;
+}
