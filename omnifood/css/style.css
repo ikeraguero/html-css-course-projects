@@ -883,3 +883,31 @@ footer {
   color: #333;
   text-decoration: none;
 }
+
+.footer-logo {
+  width: 75%;
+}
+
+.social-media-logos {
+  margin-top: 3.2rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.social-media-logo {
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
+.address-and-contact {
+  margin-top: 3.2rem;
+}
+
+.address,
+.contact {
+  font-size: 1.4rem;
+}
+
+.copyright {
+  font-weight: 300;
+}
