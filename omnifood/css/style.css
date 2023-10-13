@@ -50,7 +50,7 @@ Medium: 11px
 }
 
 html {
-  font-size: 10px;
+  font-size: 62.5%;
 }
 
 body {
@@ -81,7 +81,7 @@ body {
   margin: 0 auto;
   align-items: center;
   padding: 0 3.2rem;
-  gap: 4.8rem;
+  gap: 9.6rem;
 }
 
 .hero-text h1 {
@@ -185,7 +185,7 @@ body {
 .section-list {
   display: flex;
   align-items: center;
-  gap: 3.2rem;
+  gap: 4.8rem;
 }
 
 .section-list li {
@@ -199,13 +199,14 @@ body {
   color: #333;
   display: inline-block;
   font-weight: 500;
+  transition: all 0.2s;
 }
 
 .nav-btn {
 }
 
 .nav-btn:hover,
-.nav-btn:visited {
+.nav-btn:active {
   color: #b8651b;
 }
 
@@ -223,6 +224,23 @@ body {
   background-color: #b8651b;
   color: #fff;
 }
+
+.nav-menu-mobile {
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: none;
+}
+
+.nav-menu-mobile-icon {
+  height: 4.8rem;
+  width: 4.8rem;
+}
+
+.nav-menu-mobile-icon[name="close-outline"] {
+  display: none;
+}
+
 /* REUSABLE */
 
 .container {
@@ -283,8 +301,7 @@ body {
   justify-content: center;
 }
 
-.howitworks-description,
-.meals-description {
+.secondary-heading {
   font-size: 4.4rem;
   font-weight: 700;
   margin-bottom: 9.6rem;
@@ -309,7 +326,7 @@ body {
 
 .step-number {
   color: #ddd;
-  font-size: 7.4rem;
+  font-size: 8.6rem;
   font-weight: 600;
 }
 
@@ -520,9 +537,14 @@ body {
   grid-template-columns: 55fr 45fr;
 }
 
+.testimonial-heading {
+  margin-bottom: 0;
+}
+
 .testimonials-box {
   padding-left: 4.4rem;
   padding-right: 4.4rem;
+  align-self: center;
 }
 
 .testimonial-images-box {
@@ -752,7 +774,6 @@ body {
 
 .grid--cta {
   background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
-  width: 80%;
   padding: 0;
   gap: 0;
   border-radius: 9px;
@@ -804,7 +825,9 @@ body {
 }
 
 .grid--cta-small {
+  display: grid;
   row-gap: 2.4rem;
+  column-gap: 3.6rem;
   color: inherit;
 }
 
