@@ -14,6 +14,13 @@ So always divide the breakpoint width by 16 in order to get the value in em
   .testimonial-images-box {
     grid-template-columns: 1fr 1fr;
   }
+  .quotes-grid {
+    padding-top: 4.8rem;
+    padding-bottom: 1.6rem;
+  }
+  .testimonials-section {
+    padding: 4.8rem 3.8rem;
+  }
 }
 
 @media (max-width: 75em) {
@@ -97,7 +104,7 @@ So always divide the breakpoint width by 16 in order to get the value in em
     margin-top: 3.2rem;
   }
 
-  .features-imgs img {
+  .featured-imgs img {
     height: 2.4rem;
   }
 
@@ -163,5 +170,102 @@ So always divide the breakpoint width by 16 in order to get the value in em
   .nav-btn:link,
   .nav-btn:visited {
     font-size: 3.2rem;
+  }
+}
+
+@media (max-width: 44em) {
+  .grid--3-cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .grid--4-cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .grid--5-cols {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .diets {
+    grid-column: 1 / -1;
+    justify-self: center;
+  }
+
+  .secondary-heading {
+    margin-bottom: 4.8rem;
+  }
+
+  .card-item {
+    width: 100%;
+  }
+  .footer-column {
+    grid-row: 1;
+    grid-column: span 2;
+  }
+
+  .footer-column-address,
+  .footer-column-logo {
+    grid-column: span 3;
+  }
+  .footer-logo {
+    width: 65%;
+  }
+  .copyright {
+    margin: 0;
+    margin-top: 2rem;
+  }
+  .quotes-grid {
+    padding-top: 0;
+  }
+}
+
+@media (max-width: 34em) {
+  .grid {
+    row-gap: 4.8rem;
+  }
+
+  .grid--2-cols {
+    grid-template-columns: 1fr;
+  }
+
+  .grid--3-cols {
+    grid-template-columns: 1fr;
+  }
+
+  .grid--4-cols {
+    grid-template-columns: 1fr;
+  }
+
+  .pricing-cards-grid {
+    grid-template-columns: 1fr;
+  }
+  .complete::before {
+    right: -10%;
+  }
+  .hero-grid-container {
+    padding: 0 6.4rem;
+  }
+  .btn:link,
+  .btn:visited {
+    padding: 3.2rem 3.2rem;
+  }
+  .featured-imgs img {
+    height: 1.6rem;
+  }
+  .step-img-box:nth-child(2) {
+    grid-row: 1;
+  }
+  .step-img-box:nth-child(6) {
+    grid-row: 5;
+  }
+
+  .phone-app-img {
+    transform: translateY(2rem);
+  }
+  .testimonial-images-box {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .cta-text {
+    padding: 4.8rem 6.4rem 3.2rem 6.4rem;
   }
 }
