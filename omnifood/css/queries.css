@@ -118,6 +118,7 @@ So always divide the breakpoint width by 16 in order to get the value in em
 
   .nav-menu-mobile {
     display: block;
+    z-index: 9999;
   }
 
   .section-list {
