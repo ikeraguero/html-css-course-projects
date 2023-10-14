@@ -51,6 +51,7 @@ Medium: 11px
 
 html {
   font-size: 62.5%;
+  overflow: hidden;
 }
 
 body {
@@ -58,6 +59,7 @@ body {
   font-weight: 400;
   line-height: 1;
   color: #555;
+  overflow: hidden;
 }
 
 .header {
@@ -67,6 +69,7 @@ body {
   justify-content: space-between;
   padding: 0 4.8rem;
   background-color: #fdf2e9;
+  position: relative;
 }
 
 .hero-section {
@@ -175,7 +178,7 @@ body {
 
 .navigation {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .logo {
@@ -203,6 +206,7 @@ body {
 }
 
 .nav-btn {
+  align-self: center;
 }
 
 .nav-btn:hover,

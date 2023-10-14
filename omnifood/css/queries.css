@@ -112,4 +112,56 @@ So always divide the breakpoint width by 16 in order to get the value in em
   .nav-menu-mobile {
     display: block;
   }
+
+  .section-list {
+    gap: 4.8rem;
+  }
+
+  .navigation {
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    transform: translateX(100%);
+
+    justify-content: center;
+    align-items: center;
+
+    /* display: none doesn't allow transitions */
+
+    /* hide it visually */
+    opacity: 0;
+    /* hide it from mouse and keyboard */
+    pointer-events: none;
+    /* hide it from screen readers */
+    visibility: hidden;
+
+    transition: all 0.5s;
+  }
+
+  .nav-open .navigation {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0%);
+  }
+
+  .nav-open .nav-menu-mobile-icon[name="menu-outline"] {
+    display: none;
+  }
+
+  .nav-open .nav-menu-mobile-icon[name="close-outline"] {
+    display: block;
+  }
+
+  .section-list {
+    flex-direction: column;
+  }
+
+  .nav-btn:link,
+  .nav-btn:visited {
+    font-size: 3.2rem;
+  }
 }
