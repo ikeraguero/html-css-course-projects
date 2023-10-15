@@ -19,11 +19,11 @@
       <img src="img/omnifood-logo.png" alt="Omnifood Logo" class="logo" />
       <nav class="navigation">
         <ul class="section-list">
-          <li><a href="#" class="nav-btn">How it works</a></li>
-          <li><a href="#" class="nav-btn">Meals</a></li>
-          <li><a href="#" class="nav-btn">Testimonials</a></li>
-          <li><a href="#" class="nav-btn">Pricing</a></li>
-          <li><a href="#" class="nav-btn calltoaction ">Try for free</a></li>
+          <li><a href="#how" class="nav-btn">How it works</a></li>
+          <li><a href="#meals" class="nav-btn">Meals</a></li>
+          <li><a href="#testimonials" class="nav-btn">Testimonials</a></li>
+          <li><a href="#pricing" class="nav-btn">Pricing</a></li>
+          <li><a href="#cta" class="nav-btn calltoaction ">Try for free</a></li>
         </ul>
       </nav>
       <button class="nav-menu-mobile">
@@ -32,7 +32,7 @@
       </button>
     </header>
     <main>
-      <section class="hero-section">
+      <section class="hero-section" id="hero">
         <div class="hero-grid-container">
           <div class="hero-text">
             <h1>A healthy meal delivered to your door, every single day</h1>
@@ -42,8 +42,8 @@
               nutritional needs.
             </p>
             <div class="hero-buttons">
-              <a href="#" class="btn btn-subscription">Start eating well</a>
-              <a href="#" class="btn btn-information">Learn more &darr;</a>
+              <a href="#cta" class="btn btn-subscription">Start eating well</a>
+              <a href="#cta" class="btn btn-information">Learn more &darr;</a>
             </div>
             <div class="customers">
               <div class="customers-img">
@@ -78,7 +78,7 @@
         </div>
       </section>
 
-      <section class="how-section">
+      <section class="how-section" id="how">
         <div class="container steps">
           <h2 class="section-title">HOW IT WORKS</h2>
           <p class="secondary-heading">
@@ -146,7 +146,7 @@
           </div>
         </div>
       </section>
-      <section class="meal-section">
+      <section class="meal-section" id="meals">
         <div class="container meals">
           <h2 class="section-title"><div class="meals-title">MEALS</div></h2>
           <p class="secondary-heading meals-description">
@@ -220,7 +220,7 @@
           <a href="#" class="recipes-link">See all recipes &rarr;</a>
         </div>
       </section>
-      <section class="testimonials-section">
+      <section class="testimonials-section" id="testimonials">
             <div class="testimonials-box">
               <h2 class="section-title">Testimonials</h2>
               <p class="secondary-heading testimonial-heading">Once you try it, you can't go back</p>
@@ -288,7 +288,7 @@
             </div>
           </div>
       </section>
-      <section class="pricing container">
+      <section class="pricing container" id="pricing">
         <h2 class="section-title">Pricing</h2>
         <p class="secondary-heading">Eating well without breaking the bank</p>
         <div class="pricing-cards-grid">
@@ -361,7 +361,7 @@
             </div>
           </div>
         </section>
-        <section clas="cta-section">
+        <section clas="cta-section" id="cta">
           <div class="container grid grid--3-cols grid--cta">
             <div class="cta-text">
               <h2 class="secondary-heading cta-title">Get your first meal for free!</h2>
@@ -452,6 +452,10 @@
     </footer>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
     <script defer src="js/script.js"></script>
   </body>
 </html>
