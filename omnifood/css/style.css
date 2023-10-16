@@ -83,7 +83,7 @@ body {
 }
 
 .hero-grid-container {
-  max-width: 130rem; /* 1300px, max-width = if the element is bigger than the browser's screen, width will be 130rem, if it's smaller, it'll adjust de size automatically */
+  max-width: 130rem; /* 1300px, max-width = if the element is bigger than the browser's screen, width will be 130rem, if it's smaller, it'll adjust the size automatically */
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin: 0 auto;
