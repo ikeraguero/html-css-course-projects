@@ -252,7 +252,7 @@ So always divide the breakpoint width by 16 in order to get the value in em
     padding: 3.2rem 3.2rem;
   }
   .featured-imgs img {
-    height: 1.6rem;
+    height: 1.4rem;
   }
   .step-img-box:nth-child(2) {
     grid-row: 1;

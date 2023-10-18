@@ -1,0 +1,52 @@
+/* CONTAINER FOR CENTRALIZATION */
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
+/* GRID AND VARIATIONS */
+
+.grid {
+  display: grid;
+  column-gap: 3.2rem;
+  row-gap: 9.6rem;
+}
+
+.grid:not(:last-child) {
+  margin-bottom: 9.6rem;
+}
+
+.grid--center {
+  justify-content: center;
+  align-items: center;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+/* BUTTON */
+
+.btn:link,
+.btn:visited {
+  font-size: 1.8rem;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 1.6rem 3.2rem;
+  border-radius: 0.8rem;
+  display: inline-block;
+}
